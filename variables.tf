@@ -1,6 +1,6 @@
 variable "aws_region" {
   description = "Region for the VPC"
-  default = "us-east-1"
+  default = "eu-west-2"
 }
 
 variable "vpc_cidr" {
@@ -20,10 +20,10 @@ variable "private_subnet_cidr" {
 
 variable "ami" {
   description = "AMI for EC2"
-  default = "ami-4fffc834"
+  default = "ami-403e2524"
 }
 
 variable "key_path" {
   description = "SSH Public Key path"
-  default = "/home/core/.ssh/id_rsa.pub"
+  default = "/path/to/public/key.pub"
 }
